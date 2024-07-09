@@ -1,0 +1,174 @@
+body {
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: poppins-madium;
+    src: url('../site_tcc_fatec/fontes/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Nexa-Extralight;
+    src: url('../site_tcc_fatec/fontes/Nexa-ExtraLight.ttf');
+}
+
+/*----------------------home inicio---------------------------*/
+
+header {
+    width: 100%; 
+    height: 60px; 
+    background-color: #05B6CA; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+
+.logo {
+    position: absolute; 
+    width: 200px; 
+    height: auto;
+}
+
+.logo img {
+    width: 90%; 
+    margin-left: 10%; 
+}
+
+nav {
+    position: absolute; 
+    right: 10px; 
+    bottom: 0px;
+}
+
+nav ul li {
+    float: left; 
+    color: #fff; 
+    width: auto; 
+    margin: 0.8em;
+    font-size: 1.2em;
+    font-family: poppins-madium;
+    list-style: none;
+    font-size: 17px;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #c8c8ce;
+}
+
+/*--------------------------home fim---------------------------*/
+
+/*------------------------login inicio---------------------------*/
+
+.boxout {
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #ffffff;
+    font-family: poppins-madium;
+}
+
+.boxin {
+    width: 550px;
+    height: 400px;
+    background-image: linear-gradient(#035C66, #06B8CC);
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 10px 10px 10px;
+  
+}
+
+.login-title {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px 200px 20px;
+    font-family: poppins-madium;
+}
+
+.input100 {
+    width: 490px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 15px;
+    color: #000000;
+    background: #e6e6e6;
+}
+
+.userw {
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.text {
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.text1 {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.txt1 {
+    padding-left: 60px;
+}
+
+.txt2 {
+    padding-left: 190px;
+    color: #ffffff;
+}
+
+.txt3 {
+    padding-left: 142px;
+}
+
+.txt4 {
+    padding-left: 60px;
+    color: #ffffff;
+}
+
+/* código do botão */
+
+.btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    border: 0;
+
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #2A606C, #02515A);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+} 
+
+/*----------------------login fim---------------------------*/
