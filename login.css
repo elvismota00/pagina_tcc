@@ -1,17 +1,26 @@
+@font-face {
+    font-family: roboto;
+    src: url(fontes/roboto/Roboto-Regular.ttf);
+}
 
-form {
-    justify-content: center;
-    align-items: center;
+.box_logo {
+    width: 350px;
+    height: 400px;
+    margin-right: 150px;
+}
+
+.logo_preto img {
+   
 }
 
 .boxout {
-    width: 100.6%;  
-    min-height: 625px;
+    width: 100%;  
+    min-height: 100vh;
     display: flex;
     justify-content: right;
     align-items: center;
     background: #ffffff;
-    font-family: poppins-madium;
+    font-family: roboto;
 }
 
 .boxin {
@@ -29,7 +38,7 @@ form {
     padding-left: 130px;
     font-size: 30px;
     color: #ffffff;
-    font-family: poppins-madium;
+    font-family: roboto;
     text-align: center;
     display: flex;
 }
@@ -39,14 +48,19 @@ form {
     height: 35px;
     border-radius: 25px;
     border: 0px;
-    font-size: 15px;
+    font-size: 13px;
     color: #000000;
     background: #e6e6e6;
 }
 
+::placeholder {
+    padding-left: 8px;
+}
+
 .userw {
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 12px;
+    color: #fff;
 }
 
 .text {
