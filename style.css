@@ -17,6 +17,16 @@ body {
     src: url('../site_tcc_fatec/fontes/Nexa-ExtraLight.ttf');
 }
 
+@font-face {
+    font-family: roboto;
+    src: url(fontes/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(fontes/roboto/Roboto-Light.ttf);
+}
+
 /*----------------------home inicio---------------------------*/
 
 /* -------cabeçalho inicio------- */
@@ -53,9 +63,9 @@ nav ul li {
     width: auto; 
     margin: 0.8em;
     font-size: 1.2em;
-    font-family: poppins-madium;
     list-style: none;
     font-size: 17px;
+    font-family: roboto;
 }
  
 nav ul li a {
@@ -79,6 +89,8 @@ footer {
     position: relative;
     bottom: 0;
     left: 0;
+    font-family: roboto-light;
+    font-size: 14px;
 }
 
 /*--------------------------home fim---------------------------*/
