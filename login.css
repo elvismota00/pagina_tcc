@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: roboto;
     src: url(fontes/roboto/Roboto-Regular.ttf);
@@ -33,7 +37,7 @@ h2 {
     display: flex;
     justify-content: right;
     align-items: center;
-    background: #ffffff;
+    background: #d5d0fd;
     font-family: roboto;
 }
 

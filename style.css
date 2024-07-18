@@ -1,5 +1,6 @@
 body {
-    color: #ffffff;
+    margin: 0;
+    background: #d5d0fd;
     background-image: url(imagens/photo_woman2.png);
     background-repeat: no-repeat;
     background-position: right top;
