@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background: #d5d0fd;
-    background-image: url(imagens/photo_woman2.png);
+    background: #f5fdf1;
+    background-image: url(imagens/woman_background_white.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: scroll;
@@ -79,8 +79,16 @@ nav ul li a:hover {
 }
 /* -------cabeçalho fim------- */
 
-.viewport {
-    height: 1000px;
+.container {
+    height: 2000px;
+}
+
+.frase_h2 {
+    width: 500px;
+    font-size: 30px;
+    font-family: roboto;
+    padding-top: 230px;
+    padding-left: 200px;
 }
 
 footer {
@@ -88,8 +96,6 @@ footer {
     height: 60px; 
     background-color: #05B6CA; 
     position: relative;
-    bottom: 0;
-    left: 0;
     font-family: roboto-light;
     font-size: 14px;
 }
