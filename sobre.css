@@ -4,12 +4,37 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: roboto;
+    src: url(fontes/roboto/Roboto-Regular.ttf);
+}
+
 .container {
     height: 100vh;
     display: flex;
     justify-content: center;
     background-color: #d5d0fd;
     align-items: center;
+    font-family: roboto;
+}
+
+.site {
+    width: 400px;
+    height: 500px;
+    margin-right: 10px;
+    background-color: #998ef1;
+    text-align: justify;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.devs {
+    width: 600px;
+    height: 500px;
+    margin-left: 10px;
+    background-color: #998ef1;
 }
 
 footer {
