@@ -28,6 +28,7 @@
 
 h2 {
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .devs {
@@ -35,6 +36,38 @@ h2 {
     height: 500px;
     margin-left: 10px;
     background-color: #998ef1;
+}
+
+.dev_elvis {
+    display: flex;
+}
+
+.dev_elvis .fle {
+    width: 450px;
+    height: 100px;
+    display: block;
+    align-items: center;
+}
+
+.dev_elvis img {
+    border-radius: 100%;
+    margin: 15px;
+    width: 120px;
+    height: auto;
+}
+
+.dev_elvis h4 {
+    font-size: 16px;
+}
+
+.dev_elvis p {
+    font-size: 13px;
+}
+
+.icons {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
 }
 
 footer {
