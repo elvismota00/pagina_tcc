@@ -44,25 +44,28 @@ h2 {
 .boxin {
     width: 350px;
     height: 435px;
-    display: flex;
-    /* background-image: linear-gradient(#035C66, #06B8CC); */
+    display: block;
     background-color: #048998;
     border-radius: 10px;
     margin-right: 250px;
+    text-align: center;
+}
+
+form .login {
+    display: block;
     justify-content: center;
 }
 
-.login-title {
-    padding-left: 100px;
+h1 {
     padding-top: 25px;
     padding-bottom: 20px;
     font-size: 35px;
     color: #ffffff;
     font-family: roboto;
-    display: flex;
+    display: block;
 }
 
-.input100 {
+.input {
     width: 300px;
     height: 35px;
     border-radius: 25px;
@@ -79,7 +82,7 @@ h2 {
 
 .userw {
     font-size: 14px;
-    padding-left: 12px;
+    padding-right: 205px;
     color: #fff;
 }
 
@@ -89,7 +92,6 @@ h2 {
 }
 
 .txt {
-    padding-left: 90px;
     color: #ffffff;
 }
 
@@ -116,6 +118,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 } 
 
 .form-btn2 {
@@ -131,7 +134,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 } 
+
+a {
+    text-decoration: none;
+}
 
 hr {
     height: 1px;
