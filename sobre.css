@@ -33,6 +33,10 @@ h2 {
     margin-left: 15px;
 }
 
+.fle h4 {
+    font-weight: bold;
+}
+
 .devs {
     width: 600px;
     height: 500px;
@@ -45,16 +49,19 @@ h2 {
 }
 
 .dev_elvis .fle {
+    margin-top: 17px;
+    padding-top: 17px;
     width: 450px;
-    height: 100px;
+    height: 150px;
     display: block;
     align-items: center;
+    background-color: aqua;
 }
 
 .dev_elvis img {
     border-radius: 100%;
     margin: 15px;
-    width: 120px;
+    width: 150px;
     height: auto;
 }
 
@@ -66,9 +73,9 @@ h2 {
     font-size: 13px;
 }
 
-.icons {
-    display: flex;
+.icon1 {
     width: 100px;
+    display: flex; 
     justify-content: space-between;
 }
 
