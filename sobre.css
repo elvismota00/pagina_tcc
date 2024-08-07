@@ -23,54 +23,53 @@
 .site {
     width: 400px;
     height: 500px;
-    margin-right: 10px;
-    background-color: #998ef1;
+    margin-right: 20px;
     text-align: justify;
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 15px;
 }
 
 .fle h4 {
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .devs {
     width: 600px;
     height: 500px;
     margin-left: 10px;
-    background-color: #998ef1;
 }
 
-.dev_elvis {
+.dev_elvis_lucas {
     display: flex;
 }
 
-.dev_elvis .fle {
+.dev_elvis_lucas .fle {
     margin-top: 17px;
     padding-top: 17px;
     width: 450px;
     height: 150px;
     display: block;
     align-items: center;
-    background-color: aqua;
 }
 
-.dev_elvis img {
+.dev_elvis_lucas img {
     border-radius: 100%;
     margin: 15px;
     width: 150px;
     height: auto;
 }
 
-.dev_elvis h4 {
+.dev_elvis_lucas h4 {
     font-size: 16px;
 }
 
-.dev_elvis p {
+.dev_elvis_lucas p {
     font-size: 13px;
+    margin-bottom: 5px;
 }
 
 .icon1 {
