@@ -36,8 +36,9 @@ header {
     width: 100%; 
     height: 70px; 
     background-color: #05B6CA; 
-    align-items: center;
     position: absolute; 
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -55,16 +56,18 @@ header {
 nav {
     position: absolute; 
     right: 10px; 
-    bottom: 6px;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
     float: left; 
     color: #fff; 
     width: auto; 
-    margin: 0.8em;
+    margin-right: 20px;
+   
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: roboto;
 }
  
@@ -78,16 +81,17 @@ nav ul li a:hover {
 }
 
 #cad {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #0ab904, #10c40a);;
-    float: left; 
+    width: 120px;
+    height: 35px;
+    border-radius: 1px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff; 
-    width: auto; 
    
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: roboto;
 }
 /* -------cabeçalho fim------- */
@@ -98,15 +102,15 @@ nav ul li a:hover {
 }
 
 .frase_h2 {
-    width: 500px;
-    font-size: 30px;
+    width: 600px;
+    font-size: 37px;
     font-family: roboto;
-    padding-top: 230px;
+    padding-top: 150px;
     padding-left: 200px;
 }
 
 .tutorial1 {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
