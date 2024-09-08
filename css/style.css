@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #f5fdf1;
-    background-image: url(imagens/woman_background_white.png);
+    background-image: url(/imagens/woman_background_white.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: scroll;
@@ -9,23 +9,13 @@ body {
 }
 
 @font-face {
-    font-family: poppins-madium;
-    src: url('../site_tcc_fatec/fontes/poppins/Poppins-Medium.ttf');
-}
-
-@font-face {
-    font-family: Nexa-Extralight;
-    src: url('../site_tcc_fatec/fontes/Nexa-ExtraLight.ttf');
-}
-
-@font-face {
     font-family: roboto;
-    src: url(fontes/roboto/Roboto-Regular.ttf);
+    src: url(/fontes/roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: roboto-light;
-    src: url(fontes/roboto/Roboto-Light.ttf);
+    src: url(/fontes/roboto/Roboto-Light.ttf);
 }
 
 /*----------------------home inicio---------------------------*/
