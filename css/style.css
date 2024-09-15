@@ -88,33 +88,71 @@ nav ul li a:hover {
 
 .container {
     height: 2500px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .frase_h2 {
     width: 600px;
     font-size: 37px;
+    margin-right: 600px;
+    font-weight: normal;
     font-family: roboto;
     padding-top: 150px;
     padding-left: 200px;
 }
 
+.texto_tutor {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 240px;
+    font-family: roboto;
+    text-align: center;
+}
+
+.texto_tutor h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.texto_tutor .t1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.texto_tutor .t2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+
 .tutorial1 {
-    margin-top: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 1260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    width: 100%;
     height: 450px;
-    border-radius: 15px;
     background-color: #dedada;
+    font-family: roboto;
+}
+
+.text_normal {
+    width: 300px;
+}
+
+.tutorial1 img {
+    width: 300px;
+    height: auto;
 }
 
 .tutorial {
     margin: 50px;
-    width: 1260px;
+    width: 100%;
     height: 450px;
-    border-radius: 15px;
     background-color: #dedada;
 }
 
