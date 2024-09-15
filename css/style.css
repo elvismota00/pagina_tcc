@@ -18,9 +18,7 @@ body {
     src: url(/fontes/roboto/Roboto-Light.ttf);
 }
 
-/*----------------------home inicio---------------------------*/
-
-/* -------cabeçalho inicio------- */
+/*cabeçalho inicio*/
 
 header {
     width: 100%; 
@@ -31,6 +29,7 @@ header {
     align-items: center;
 }
 
+/*imagem do cabeçalho*/
 .logo {
     margin-top: 6px;
     position: absolute; 
@@ -43,6 +42,7 @@ header {
     margin-left: 10%; 
 }
 
+/* itens do cabeçaho */
 nav {
     position: absolute; 
     right: 10px; 
@@ -84,8 +84,8 @@ nav ul li a:hover {
     font-size: 15px;
     font-family: roboto;
 }
-/* -------cabeçalho fim------- */
 
+/* itens principal da pagina */
 .container {
     height: 2500px;
     display: flex;
@@ -94,8 +94,12 @@ nav ul li a:hover {
 
 }
 
+/* primeiro texto  */
 .frase_h2 {
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 37px;
     margin-right: 600px;
     font-weight: normal;
@@ -104,6 +108,24 @@ nav ul li a:hover {
     padding-left: 200px;
 }
 
+.frase_h2 h2 {
+    margin-bottom: 10px;
+}
+
+.frase_h2 button {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-family: roboto;
+    background-color: #05B6CA;
+    border: 2px solid rgba(102, 47, 255, 0.068);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+/* texto de apresentação */
 .texto_tutor {
     width: 800px;
     display: flex;
@@ -129,7 +151,7 @@ nav ul li a:hover {
     margin: 0;
 }
 
-
+/* primeito quadro de tutorial */
 .tutorial1 {
     display: flex;
     flex-direction: column;
@@ -169,6 +191,7 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
+/* imagem do primeiro quadro */
 .tutorial1 img {
     width: 480px;
     height: 300px;
@@ -183,7 +206,16 @@ nav ul li a:hover {
     margin-bottom: 50px;
 }
 
-.tutorial {
+/* segundo quadro de tutorial */
+.tutorial2 {
+    margin: 50px;
+    width: 100%;
+    height: 450px;
+    background-color: #dedada;
+}
+
+/* terceiro quadro de tutorial */
+.tutorial3 {
     margin: 50px;
     width: 100%;
     height: 450px;
