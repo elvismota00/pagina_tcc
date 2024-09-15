@@ -132,21 +132,55 @@ nav ul li a:hover {
 
 .tutorial1 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 55px;
     width: 100%;
-    height: 450px;
+    height: 600px;
     background-color: #dedada;
     font-family: roboto;
+    align-items: center;
 }
 
-.text_normal {
-    width: 300px;
+.normal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: #dedada;
+    font-family: roboto;
+    align-items: center;
+    margin: 0;
+}
+
+.normal .text_normal2 {
+    width: 600px;
+}
+
+.text_normal2 h2 {
+    font-size: 30px;
+}
+
+.text_normal2 h3 {
+    font-size: 22px;
+}
+
+.text_normal2 p {
+    font-size: 20px;
 }
 
 .tutorial1 img {
-    width: 300px;
-    height: auto;
+    width: 480px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.tutorial1 .tx p {
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .tutorial {
