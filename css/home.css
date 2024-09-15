@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #51bd1a;
+    background-image: url(/imagens/Calendário.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+
+h1 {
+    color: red;
+}
