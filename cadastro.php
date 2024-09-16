@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
 </head>
 <body>
+
     <div class="container">
         <div class="box">
             <div class="cad">
@@ -17,33 +18,75 @@
 
             <hr>
 
+      
             <div class="formulario">
-                <form>
-                    <span class="userw">Email</span>
+             
+                    <form action="register.php" method="POST" class="login">
+
+
+                         <span class="userw">Email</span>
                     <div class="input100">
                         <input class="input100" type="email" name="email" placeholder="Email" required>
                     </div>
 
                     <span class="userw">Username</span>
                     <div class="input100">
-                        <input class="input100" type="text" name="user" placeholder="Usuário" required>
+                        <input class="input100" type="text" name="username" placeholder="Usuário" required>
                     </div>
 
                     <span class="userw">Password</span>
                     <div class="input100">
-                        <input class="input100" type="password" name="pass" placeholder="Senha" required>
+                        <input class="input100" type="password" name="password" placeholder="Senha" required>
                     </div>
 
-                    <div class="hr"><hr></div>
+                    <div class="btn">
+                            <button type="submit" class="form-btn2">Cadastrar</button>
+                        </div>
 
-                    <button>Cadastrar</button>
-                </form>
+
+
+                    </form>
+                <hr>
+                <p class="txt">Já tem uma conta? <a href="index.php" class="txt">Faça login</a></p>
             </div>
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
         </div>
     </div>
+
+
+
+
+
+
+
+
     <footer class="foot">
         <p>Dev By Elvis Oliveira</p>
         <p>Dev By Lucas Moreira</p>
     </footer>
+
 </body>
 </html>
