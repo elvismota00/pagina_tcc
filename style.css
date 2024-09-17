@@ -1,0 +1,125 @@
+{
+    margin: 0;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fontes/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(fontes/roboto/Roboto-Light.ttf);
+}
+
+.box_logo {
+    width: 440px;
+    height: 400px;
+    margin-right: 50px;
+    text-align: left;
+    font-family: roboto-light;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.logo_preto img {
+    width: 350px;
+}
+
+.boxout {
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #d5d0fd;
+    font-family: roboto;
+}
+
+.boxin {
+    width: 350px;
+    height: 435px;
+    display: block;
+    background-color: #048998;
+    border-radius: 10px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+form .login {
+    display: block;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: roboto;
+    display: block;
+}
+
+.input {
+    width: 300px;
+    height: 35px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 13px;
+    color: #000000;
+    background: #e6e6e6;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    padding-left: 8px;
+}
+
+.userw {
+    font-size: 14px;
+    padding-right: 205px;
+    color: #fff;
+}
+
+.text {
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.txt {
+    color: #ffffff;
+}
+
+/* código do botão */
+
+.btn {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.form-btn {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #2A606C, #02515A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.form-btn2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:
