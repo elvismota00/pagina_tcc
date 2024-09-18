@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: roboto;
-    src: url(fontes/roboto/Roboto-Regular.ttf);
+    src: url(/fontes/roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: roboto-light;
-    src: url(fontes/roboto/Roboto-Light.ttf);
+    src: url(/fontes/roboto/Roboto-Light.ttf);
 }
 
 .box_logo {
