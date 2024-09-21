@@ -98,8 +98,8 @@ nav ul li a:hover {
     width: 100%;
     height: 100vh;
     display: flex;
+    padding-top: 90px;
     flex-direction: column;
-    justify-content: center;
     background-color: #d5d0fd;
     align-items: center;
 }
@@ -108,13 +108,50 @@ nav ul li a:hover {
     font-size: 50px;
     font-family: roboto;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .opcao {
-    width: 200px;
-    height: 200px;
-    background-color: #035c66;
+    width: 300px;
+    height: 260px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.op1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: roboto;
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.op1 h3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.op1 p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: roboto;
+}
+
+.op1 button {
+    width: 270px;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: roboto;
+    color: #ffffff;
+    background-color: #05B6CA;
+    border: 0;
 }
 
 /* rodape da pagina */
