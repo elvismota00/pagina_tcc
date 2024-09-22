@@ -23,6 +23,12 @@ body {
     src: url(/fontes/code/CascadiaCode-Light.otf);
 }
 
+@media (min-width: 501px) {
+    .menu {
+        display: none;
+    }
+}
+
 
 /*cabeçalho inicio*/
 
@@ -92,6 +98,7 @@ nav ul li a:hover {
 
 /* itens principal da pagina */
 .container {
+    width: 100%;
     height: 5430px;
     display: flex;
     flex-direction: column;
@@ -419,3 +426,103 @@ footer hr {
     font-size: 15px;
 }
 /*----home fim----*/
+
+/* ____Ediçao para celulares____ */
+
+@media (max-width: 500px) {
+    
+    /*cabeçalho inicio*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(/imagens/woman_background_white.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: none;
+    }
+
+    header {
+        width: 100%; 
+        height: 60px; 
+        background-color: #05B6CA; 
+        position: relative; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*imagem do cabeçalho*/
+    .logo {
+        margin-top: 6px;
+        position: absolute; 
+        width: 200px; 
+        height: auto;
+    }
+
+    .logo img {
+        width: 130px;
+        margin-left: 1px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* ---icone de menu--- */
+
+    .menu img {
+        width: 35px;
+        height: 35px;
+        margin-left: 315px;
+        margin-top: 5px;
+        position: relative;
+    }
+
+    .container {
+        width: 100%;
+        height: 5430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* primeiro texto  */
+    .frase_h2 {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        margin-right: 0px;
+        font-weight: normal;
+        font-family: roboto;
+        padding-top: 300px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .frase_h2 h2 {
+        margin-bottom: 20px;
+    }
+
+    .frase_h2 button {
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+        font-family: roboto;
+        background-color: #05B6CA;
+        border: 2px solid rgba(102, 47, 255, 0.068);
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 0;
+    }
+
+
+}
