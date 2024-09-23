@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     background: #f5fdf1;
@@ -372,7 +374,7 @@ footer a {
 }
 
 .box_footer {
-    width: 1300px;
+    width: 100%;
     height: 140px;
     display: flex;
     align-items: center;
@@ -441,10 +443,10 @@ footer hr {
 
     body {
         background-image: url(/imagens/woman_background_white.png);
-        background-size: 500px;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: right top;
-        background-attachment: none;
+        background-attachment: ;
     }
 
     header {
@@ -486,7 +488,7 @@ footer hr {
 
     .container {
         width: 100%;
-        height: 5430px;
+        height: 6430px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -502,7 +504,7 @@ footer hr {
         margin-right: 0px;
         font-weight: normal;
         font-family: roboto;
-        padding-top: 300px;
+        padding-top: 200px;
         padding-left: 0px;
         text-align: center;
     }
@@ -512,9 +514,9 @@ footer hr {
     }
 
     .frase_h2 button {
-        width: 300px;
-        height: 50px;
-        font-size: 25px;
+        width: 330px;
+        height: 60px;
+        font-size: 30px;
         font-family: roboto;
         background-color: #05B6CA;
         border: 2px solid rgba(102, 47, 255, 0.068);
@@ -524,5 +526,91 @@ footer hr {
         margin-right: 0;
     }
 
+    /* texto de apresentação */
+    .texto_tutor {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    .texto_tutor h2 {
+        font-size: 40px;
+    margin-bottom: 20px;
+    }
+
+    .texto_tutor .t1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .texto_tutor .t2 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    /* primeito quadro de tutorial */
+    .tutorial1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55px;
+        width: 100%;
+        height: 720px;
+        background-color: #dedada;
+        font-family: roboto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .normal {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+        background-color: #dedada;
+        font-family: roboto;
+        align-items: center;
+        margin: 0;
+    }
+
+    .normal .text_normal2 {
+        width: 330px;
+        margin-top: 10px;
+    }
+
+    .text_normal2 h2 {
+        font-size: 30px;
+    }
+
+    .text_normal2 h3 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .text_normal2 p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* imagem do primeiro quadro */
+    .tutorial1 img {
+        width: 300px;
+        height: 210px;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .tutorial1 .tx p {
+        width: 330px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
 
 }
