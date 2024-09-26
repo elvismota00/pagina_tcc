@@ -446,7 +446,7 @@ footer hr {
         background-size: 100%;
         background-repeat: no-repeat;
         background-position: right top;
-        background-attachment: ;
+        background-attachment: scroll;
     }
 
     header {
