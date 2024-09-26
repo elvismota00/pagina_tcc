@@ -160,7 +160,7 @@ hr {
 
 footer {
     width: 100%; 
-    height: 200px; 
+    height: 210px; 
     background-color: #05B6CA; 
     position: relative;
     font-family: code_light;
@@ -181,7 +181,8 @@ footer a {
 
 .box_footer {
     width: 1300px;
-    height: 140px;
+    height: 100px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     display: flex;
