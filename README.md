@@ -13,6 +13,7 @@
     * `/opt/lampp/` e rodar `sudo ./xampp start`
 * Criar um banco de dados chamado "u483416410_drahelaine"
 * Manipular banco de dados: `http://localhost/phpmyadmin`
+* Criar novo banco chamado "my_fit"
 
 ## Views
 * configurações.php
