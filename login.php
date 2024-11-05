@@ -11,7 +11,7 @@
     <div class="boxout">
         <div class="box_logo">
             <div class="logo_preto">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo_preto">
                 </a>
             </div>
@@ -52,7 +52,7 @@
                 <hr>
             </form>
             <div class="btn">
-                <a href="cadastro.html">
+                <a href="cadastro.php">
                     <button class="form-btn2">
                         Crie uma conta
                     </button>
@@ -64,7 +64,7 @@
     <footer>
         <div class="box_footer">
             <div class="logo2">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
@@ -94,7 +94,7 @@
 
         <hr>
 
-        <h5>Coded by <a href="sobre.html">Elvis Oliveira</a> & <a href="sobre.html">Lucas Moreira</a>.</h5>
+        <h5>Coded by <a href="sobre.php">Elvis Oliveira</a> & <a href="sobre.php">Lucas Moreira</a>.</h5>
     </footer>
 </body>
 </html>

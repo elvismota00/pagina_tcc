@@ -12,19 +12,19 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="imagens/logo_acad1.png" alt="logo site">
             </a>
         </div>
 
         <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="sobre.html">SOBRE</a></li>
-                <li><a href="contantos.html">CONTATOS</a></li>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="sobre.php">SOBRE</a></li>
+                <li><a href="contantos.php">CONTATOS</a></li>
             </ul>
             <div class="cad">
-                <a href="cadastro.html"><img src="/icones/iconizer-do-utilizador.svg" alt=""></a>
+                <a href="cadastro.php"><img src="/icones/iconizer-do-utilizador.svg" alt=""></a>
             </div>
         </nav>
     </header>

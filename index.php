@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="imagens/logo_acad1.png" alt="logo site">
             </a>
         </div>
@@ -21,13 +21,13 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="sobre.html">SOBRE</a></li>
-                <li><a href="contantos.html">CONTATOS</a></li>
-                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="sobre.php">SOBRE</a></li>
+                <li><a href="contantos.php">CONTATOS</a></li>
+                <li><a href="login.php">LOGIN</a></li>
             </ul>
             <div class="cad">
-                 <a href="cadastro.html"> <button>CADASTRO</button></a>
+                 <a href="cadastro.php"> <button>CADASTRO</button></a>
             </div>
         </nav>
     </header>
@@ -36,7 +36,7 @@
         <div class="container">
             <div class="frase_h2">
                 <h2>Mantenha o controle diário da evolução do seu peso.</h2>
-                <a href="cadastro.html"> <button>CADASTRE-SE</button></a>
+                <a href="cadastro.php"> <button>CADASTRE-SE</button></a>
             </div>
 
             <div class="texto_tutor">
@@ -164,7 +164,7 @@
                 <div class="comum">
                     <h3>NORMAL</h3>
 
-                    <a href="cadastro.html">
+                    <a href="cadastro.php">
                         <button>
                             CADASTRAR
                         </button>
@@ -174,7 +174,7 @@
                 <div class="comum">
                     <h3>PERDER PESO</h3>
 
-                    <a href="cadastro.html">
+                    <a href="cadastro.php">
                         <button>
                             CADASTRAR
                         </button>
@@ -184,7 +184,7 @@
                 <div class="comum">
                     <h3>GANHAR PESO</h3>
 
-                    <a href="cadastro.html">
+                    <a href="cadastro.php">
                         <button>
                             CADASTRAR
                         </button>
@@ -197,7 +197,7 @@
     <footer>
         <div class="box_footer">
             <div class="logo2">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
@@ -227,7 +227,7 @@
     
         <hr>
     
-        <h5>Coded by <a href="sobre.html">Elvis Oliveira</a> & <a href="sobre.html">Lucas Moreira</a>.</h5>
+        <h5>Coded by <a href="sobre.php">Elvis Oliveira</a> & <a href="sobre.php">Lucas Moreira</a>.</h5>
     </footer>
 </body>
 </html>

@@ -45,7 +45,7 @@
     <footer>
         <div class="box_footer">
             <div class="logo2">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
@@ -75,7 +75,7 @@
 
         <hr>
     
-        <h5>Coded by <a href="sobre.html">Elvis Oliveira</a> & <a href="sobre.html">Lucas Moreira</a>.</h5>
+        <h5>Coded by <a href="sobre.php">Elvis Oliveira</a> & <a href="sobre.php">Lucas Moreira</a>.</h5>
     </footer>
 </body>
 </html>
