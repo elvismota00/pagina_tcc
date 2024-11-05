@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
-    <link rel="stylesheet" type="text/css" href="css/contatos.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/contatos.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/logo_acad2.png">
 </head>
 <body>
     <div class="container">

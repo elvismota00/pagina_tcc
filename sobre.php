@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
-    <link rel="stylesheet" type="text/css" href="css/sobre.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/sobre.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/logo_acad2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <div class="cont">
@@ -18,7 +18,7 @@
         <div class="devs"> 
             <h2>Desenvolvedores</h2>
             <div class="dev_elvis_lucas">
-                <img src="imagens/human-icon.jpg" alt="user">
+                <img src="assets/imagens/human-icon.jpg" alt="user">
                 <div class="fle">
                     <h4>Elvis Oliveira</h4>
 
@@ -47,7 +47,7 @@
             </div>
 
             <div class="dev_elvis_lucas">
-                <img src="imagens/human-icon.jpg" alt="user">
+                <img src="assets/imagens/human-icon.jpg" alt="user">
                 <div class="fle">
                     <h4>Lucas Moreira</h4>
 
@@ -81,7 +81,7 @@
         <div class="box_footer">
             <div class="logo2">
                 <a href="index.php">
-                    <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
+                    <img src="assets/imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
 

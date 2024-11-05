@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="css/login.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/logo_acad2.png">
 </head>
 <body class="login">
     <div class="boxout">
         <div class="box_logo">
             <div class="logo_preto">
                 <a href="index.php">
-                    <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo_preto">
+                    <img src="assets/imagens/logo_acad1nica_preto-transparente.png" alt="logo_preto">
                 </a>
             </div>
 
@@ -65,7 +65,7 @@
         <div class="box_footer">
             <div class="logo2">
                 <a href="index.php">
-                    <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
+                    <img src="assets/imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
 

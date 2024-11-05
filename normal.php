@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calendário de Monitoramento de Peso 2024</title>
-    <link rel="stylesheet" href="css/normal.css">
+    <link rel="stylesheet" href="assets/css/normal.css">
 </head>
 
 <body>
     <header>
         <div class="logo">
             <a href="index.php">
-                <img src="imagens/logo_acad1.png" alt="logo site">
+                <img src="assets/imagens/logo_acad1.png" alt="logo site">
             </a>
         </div>
 
@@ -48,7 +48,7 @@
         <p>&copy; 2024 Sistema de Monitoramento de Peso</p>
     </footer>
 
-    <script src="/javascript/script.js"></script>
+    <script src="/assets/javascript/script.js"></script>
 </body>
 
 </html>

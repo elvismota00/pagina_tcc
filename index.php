@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>acad1nica</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/logo_acad2.png">
 </head>
 <body>
     <header>
         <div class="logo">
             <a href="index.php">
-                <img src="imagens/logo_acad1.png" alt="logo site">
+                <img src="assets/imagens/logo_acad1.png" alt="logo site">
             </a>
         </div>
 
@@ -57,7 +57,7 @@
                         <p>Após realizar o seu cadastro, você será redirecionado para a página de opções e depois escolher entre uma delas. Se optar por a opção <strong>normal</strong>, você irá apenas colocar seu peso no momento atual no local indicado. </p>
                     </div>
                         
-                    <img src="imagens/calendario_local.png" alt="">
+                    <img src="assets/imagens/calendario_local.png" alt="">
                 </div> 
 
                 <div class="tx"><p>Lembrando que você deverá se pesar e colocar seu o resultado todas as vezes que for na academia para que o site mostre seus dados nos gráficos e você possa ter uma visão clara do seu peso.</p>
@@ -80,7 +80,7 @@
                         </p>
                     </div>
 
-                    <img src="/imagens/Calendário (1).svg" alt="">
+                    <img src="/assets/imagens/Calendário (1).svg" alt="">
                 </div>
 
                 <div class="tut2_2">
@@ -91,14 +91,14 @@
 
                         <p><b>4.</b>Por fim, você irá informar em quanto tempo deseja perder peso. Pode ser dias, semanas ou meses. Com essas informações o site irá calcular quanto peso você tem que perder por dia para alcançar sua meta.</p>
 
-                        <img src="/imagens/calendario_local.png" alt="">
+                        <img src="/assets/imagens/calendario_local.png" alt="">
                     </div>
                 </div>
 
                 <div class="tut2_3">
                     <p>Todos os dados serão mostrados em gráficos para que você possa acompanhar seu desenvolvimento.</p>
 
-                    <img src="/imagens/grafico1.png" alt="">
+                    <img src="/assets/imagens/grafico1.png" alt="">
                 </div>
             </div>
 
@@ -116,7 +116,7 @@
                         </p>
                     </div>
 
-                    <img src="/imagens/Calendário (1).svg" alt="">
+                    <img src="/assets/imagens/Calendário (1).svg" alt="">
                 </div>
 
                 <div class="tut2_2">
@@ -128,13 +128,13 @@
                         <p><b>4.</b> Por fim, você irá informar em quanto tempo deseja ganhar peso. Pode ser dias, semanas ou meses. Com essas informações o site irá calcular quanta massa você deve ganhar por dia para alcançar sua meta.</p>
                     </div>
 
-                    <img src="/imagens/calendario_local.png" alt="">
+                    <img src="/assets/imagens/calendario_local.png" alt="">
                 </div>
 
                 <div class="tut2_3">
                     <p>Todos as informações de ganho de peso serão mostradas em gráficos para uma visão clara de ganho de peso.</p>
 
-                    <img src="/imagens/grafico2.png" alt="">
+                    <img src="/assets/imagens/grafico2.png" alt="">
                 </div>
             </div>
 
@@ -150,7 +150,7 @@
                         </p>
                     </div>
 
-                    <img src="/imagens/Calendário (3).svg" alt="">
+                    <img src="/assets/imagens/Calendário (3).svg" alt="">
                 </div>
             </div>
 
@@ -198,7 +198,7 @@
         <div class="box_footer">
             <div class="logo2">
                 <a href="index.php">
-                    <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
+                    <img src="assets/imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                 </a>
             </div>
     

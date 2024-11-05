@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolher</title>
-    <link rel="stylesheet" type="text/css" href="css/escolher.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imagens/logo_acad2.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/escolher.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/logo_acad2.png">
 </head>
 <body>
     <div class="container_principal">
         <header>
             <div class="logo">
                 <a href="index.php">
-                    <img src="imagens/logo_acad1.png" alt="logo site">
+                    <img src="assets/imagens/logo_acad1.png" alt="logo site">
                 </a>
             </div>
 
@@ -68,7 +68,7 @@
             <div class="box_footer">
                 <div class="logo2">
                     <a href="index.php">
-                        <img src="imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
+                        <img src="assets/imagens/logo_acad1nica_preto-transparente.png" alt="logo site">
                     </a>
                 </div>
     
